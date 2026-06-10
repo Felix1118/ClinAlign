@@ -7,7 +7,7 @@ CUDA_VISIBLE_DEVICES=0, python main_test.py \
 --gen_min_len 100 \
 --batch_size 16 \
 --save_dir results/promptmrg \
---seed 42 \
---clip_k 21 \
+--seed 456789 \
+--clip_k 16 \
 --beam_size 1 \
 --load_pretrained /root/PromptMRG/results/promptmrg/model_best_epoch.pth
