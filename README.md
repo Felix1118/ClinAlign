@@ -12,7 +12,7 @@
 pip install -r requirements.txt
 ```
 # 2. Datasets Preparation
-We use two publicly available radiology report generation datasets (MIMIC-CXR and IU X-Ray) in our paper.
+We use two publicly available benchmark datasets (MIMIC-CXR and IU X-Ray) in our paper.
 - MIMIC-CXR V2.0.0: The corresponding X-Ray images can be downloaded from [MIMIC-CXR](https://www.physionet.org/content/mimic-cxr-jpg/2.0.0/). The corresponding annotation files can be downloaded from the [PromptMRG](https://github.com/jhb86253817/PromptMRG) official repository. All MIMIC-CXR-related annotation and image files should be placed under the `data/mimic_cxr/` folder.
 - IU X-RAY: The corresponding X-Ray images can be downloaded from [IU X-RAY](https://openi.nlm.nih.gov/faq) Official Website. The corresponding annotation files can be downloaded from the [PromptMRG](https://github.com/jhb86253817/PromptMRG) official repository. All ralated annotation and image files should be placed under the `data/iu_xray/` folder.
 # 3. Download necessary files
