@@ -6,7 +6,7 @@ CUDA_VISIBLE_DEVICES=0, python main_test.py \
 --gen_max_len 70 \
 --gen_min_len 30 \
 --batch_size 16 \
---save_dir results/promptmrg \
+--save_dir results/ClinAlign_iuxray \
 --seed 456789 \
 --clip_k 16 \
 --beam_size 3 \
