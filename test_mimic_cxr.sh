@@ -1,7 +1,7 @@
 CUDA_VISIBLE_DEVICES=0, python main_test.py \
 --n_gpu 1 \
---image_dir /root/autodl-tmp/MIMIC-CXR/ \
---ann_path /root/autodl-tmp/mimic_annotation_promptmrg.json \
+--image_dir /data/MIMIC-CXR/images/ \
+--ann_path /data/MIMIC-CXR/mimic_annotation_promptmrg.json \
 --dataset_name mimic_cxr \
 --gen_max_len 150 \
 --gen_min_len 100 \
