@@ -32,7 +32,8 @@ Our all experiments are conducted on a single NVIDIA A40 GPU (48GB), and trainin
 Run `test_mimic_cxr.sh` to train a model on the MIMIC-CXR dataset.
 
 Run `test_iu_xray.sh` to train a model on the IU_XRAY dataset.
-You can download our pretrained checkpoints for [Here](https://drive.google.com/file/d/1o2UorBvpznmNn0oGiHGDo9B913iU6xxi/view?usp=sharing)
+
+You can download our pretrained checkpoints for [Google Drive](https://drive.google.com/file/d/1o2UorBvpznmNn0oGiHGDo9B913iU6xxi/view?usp=sharing)
 
 # 5.Acknowledge
 We sincerely thank the contributors of the prior methods [R2Gen](https://github.com/zhjohnchan/R2Gen),[PromptMRG](https://github.com/jhb86253817/PromptMRG), [AM-MRG](https://github.com/Event-AHU/Medical_Image_Analysis/tree/main/AM_MRG).
