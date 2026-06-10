@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0, python main_test.py \
+--n_gpu 1 \
+--image_dir /root/autodl-tmp/MIMIC-CXR/ \
+--ann_path /root/autodl-tmp/mimic_annotation_promptmrg.json \
+--dataset_name mimic_cxr \
+--gen_max_len 150 \
+--gen_min_len 100 \
+--batch_size 16 \
+--save_dir results/promptmrg \
+--seed 42 \
+--clip_k 21 \
+--beam_size 1 \
+--load_pretrained /root/PromptMRG/results/promptmrg/model_best_epoch.pth
