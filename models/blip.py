@@ -219,16 +219,7 @@ class BLIP_Decoder(nn.Module):
                  ):
         super().__init__()
         self.args = args
-        REPORT_LABELS = [
-            'Enlarged Cardiomediastinum', 'Cardiomegaly', 'Lung Opacity', 'Lung Lesion', 'Edema', 'Consolidation', 'Pneumonia',
-            'Atelectasis', 'Pneumothorax', 'Pleural Effusion', 'Pleural Other', 'Fracture', 'Support Devices', 'No Finding'
-        ]
-        # self.max_txt_len=112
-        
         vision_width = 768
-        maps_num=500
-        report_total_samples=7000
-        
         self.visual_encoder = VitEncoder()
         state_dict=torch.load('/path/to/medvit_pretrained.pth',map_location='cpu')
         new_dict = {}
