@@ -6,8 +6,8 @@ CUDA_VISIBLE_DEVICES=0, python main_test.py \
 --gen_max_len 150 \
 --gen_min_len 100 \
 --batch_size 16 \
---save_dir results/promptmrg \
+--save_dir results/ClinAlign_mimic_cxr \
 --seed 456789 \
 --clip_k 16 \
 --beam_size 1 \
---load_pretrained /root/PromptMRG/results/promptmrg/model_best_epoch.pth
+--load_pretrained results/ClinAlign_mimic_cxr/model_best_epoch.pth
